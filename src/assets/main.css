@@ -1,0 +1,23 @@
+@import url(https://fonts.bunny.net/css?family=kanit:200,300,400,500,600,700,800,900);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'kanit', Arial, Helvetica, sans-serif;
+  }
+}
+
+@layer utilities {
+  .triangle {
+    width: 300px;
+    height: inherit;
+    background-color: #99ff99;
+    clip-path: polygon(0 0, 50% 0, 80% 100%, 0% 100%);
+  }
+  .circle {
+    clip-path: circle(50% at 50% 50%);
+  }
+}
