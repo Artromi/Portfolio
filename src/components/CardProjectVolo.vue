@@ -1,5 +1,5 @@
 <template>
-  <div id="projects" class="bg-blue-400 bg-opacity-20 my-12 shadow-2xl py-14 px-16">
+  <div class="bg-blue-400 bg-opacity-20 my-24 shadow-2xl py-14 px-16">
     <GalleriaPrime
       :value="images"
       :circular="true"
@@ -22,6 +22,14 @@
       />
     </template> -->
     </GalleriaPrime>
+    <div class="text-xl leading-8 text-black mt-6">
+      <p>
+        VoloDB is an open source project that is intended to massively simplify the administration
+        of the volunteer service formats "FSJ" (Freiwilliges Soziales Jahr) and "BFD"
+        (Bundesfreiwilligendienst) recognized in Germany. As a team of 3 we started working on it in
+        spring 2024.
+      </p>
+    </div>
   </div>
 </template>
 
@@ -38,27 +46,27 @@ export default {
       images: [
         {
           itemImageSrc: volo1,
-          alt: 'Description for Image 1'
+          alt: 'image of the login page from volodb, the administration software'
           // thumbnailImageSrc: 'path/to/thumb1.jpg' // Uncomment if using thumbnails
         },
         {
           itemImageSrc: volo2,
-          alt: 'Description for Image 2'
+          alt: 'image of an table view in volodb, the administration software'
           // thumbnailImageSrc: 'path/to/thumb2.jpg' // Uncomment if using thumbnails
         },
         {
           itemImageSrc: volo3,
-          alt: 'Description for Image 1'
+          alt: 'detailview from an volunteer in volodb,  the administration software'
           // thumbnailImageSrc: 'path/to/thumb1.jpg' // Uncomment if using thumbnails
         },
         {
           itemImageSrc: volo4,
-          alt: 'Description for Image 1'
+          alt: 'detailview of an volunteers contracts, sick days and pay from volodb,  the administration software'
           // thumbnailImageSrc: 'path/to/thumb1.jpg' // Uncomment if using thumbnails
         },
         {
           itemImageSrc: volo5,
-          alt: 'Description for Image 1'
+          alt: 'image of an form to fill out in volodb,  the administration software'
           // thumbnailImageSrc: 'path/to/thumb1.jpg' // Uncomment if using thumbnails
         }
       ]

@@ -1,8 +1,12 @@
 <template>
-  <div id="contact" class="flex gap-12 justify-center items-center bg-green-100 h-48">
+  <div id="contact" class="flex gap-12 justify-center items-center bg-green-100 h-56">
     <a href=""><IconMailbox class="text-black" /></a>
-    <a href=""><IconGithub class="text-black" /></a>
-    <a href=""><IconLinkedin class="text-black" /></a>
+    <a href="https://github.com/Artromi" target="_blank" rel="noopener noreferrer"
+      ><IconGithub class="text-black"
+    /></a>
+    <a href="https://linkedin.com/in/a-senger" target="_blank" rel="noopener noreferrer"
+      ><IconLinkedin class="text-black"
+    /></a>
     <!-- <a href=""><IconDownload class="text-black" /></a> -->
   </div>
 </template>

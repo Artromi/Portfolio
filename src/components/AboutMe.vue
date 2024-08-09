@@ -1,5 +1,5 @@
 <template>
-  <section id="about" class="h-screen">
+  <section>
     <div>
       <h1 class="text-8xl text-black" style="text-shadow: 2px 2px 8px #99ff99">Ari</h1>
       <h2 class="text-5xl text-black" style="text-shadow: 2px 2px 8px #99ff99">
@@ -19,24 +19,26 @@
       </div>
     </div>
 
-    <div class="mb-4">
+    <div class="mt-10">
       <h4 class="text-5xl text-black" style="text-shadow: 2px 2px 8px #99ff99">skills & tools</h4>
-      <div class="my-2">
-        <p class="text-2xl text-black">I learned and have extended experience with:</p>
-        <div class="py-4 text-black">
-          <p class="bg-green-100 p-1 m-1 inline text-xl">Vue.js</p>
-          <p class="bg-green-100 p-1 m-1 inline text-xl">JavaScript</p>
-          <p class="bg-green-100 p-1 m-1 inline text-xl">HTML</p>
-          <p class="bg-green-100 p-1 m-1 inline text-xl">CSS</p>
-          <p class="bg-green-100 p-1 m-1 inline text-xl">Git & GitHub</p>
+      <div class="flex justify-around my-2">
+        <div class="">
+          <p class="text-2xl text-black">I have extended experience with:</p>
+          <div class="py-4 text-black">
+            <p class="bg-green-100 p-1 m-1 inline text-xl">Vue.js</p>
+            <p class="bg-green-100 p-1 m-1 inline text-xl">JavaScript</p>
+            <p class="bg-green-100 p-1 m-1 inline text-xl">HTML</p>
+            <p class="bg-green-100 p-1 m-1 inline text-xl">CSS</p>
+            <p class="bg-green-100 p-1 m-1 inline text-xl">Git & GitHub</p>
+          </div>
         </div>
-      </div>
-      <div>
-        <p class="text-2xl text-black">I have basic experience with:</p>
-        <div class="py-4 text-black">
-          <p class="bg-green-100 p-1 m-1 inline text-xl">TypeScript</p>
-          <p class="bg-green-100 p-1 m-1 inline text-xl">Node.js</p>
-          <p class="bg-green-100 p-1 m-1 inline text-xl">Postman</p>
+        <div>
+          <p class="text-2xl text-black">I have basic experience with:</p>
+          <div class="py-4 text-black">
+            <p class="bg-green-100 p-1 m-1 inline text-xl">TypeScript</p>
+            <p class="bg-green-100 p-1 m-1 inline text-xl">Node.js</p>
+            <p class="bg-green-100 p-1 m-1 inline text-xl">Postman</p>
+          </div>
         </div>
       </div>
     </div>
