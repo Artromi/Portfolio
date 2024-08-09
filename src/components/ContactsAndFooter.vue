@@ -1,5 +1,5 @@
 <template>
-  <div class="flex gap-12 justify-center items-center bg-green-100 h-48">
+  <div id="contact" class="flex gap-12 justify-center items-center bg-green-100 h-48">
     <a href=""><IconMailbox class="text-black" /></a>
     <a href=""><IconGithub class="text-black" /></a>
     <a href=""><IconLinkedin class="text-black" /></a>

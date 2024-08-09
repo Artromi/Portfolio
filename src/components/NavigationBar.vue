@@ -1,9 +1,9 @@
 <template>
-  <div class="flex items-center h-32 relative">
+  <div class="flex items-center h-32 relative bg-purple-100">
     <div class="triangle"></div>
     <nav class="flex gap-24 text-4xl text-black mr-auto">
       <a class="bg-green-100 p-2" href="#about">About me</a>
-      <a class="p-2" href="#work">Work</a>
+      <a class="p-2" href="#projects">Projects</a>
       <a class="p-2" href="#contact">Contact</a>
     </nav>
   </div>
