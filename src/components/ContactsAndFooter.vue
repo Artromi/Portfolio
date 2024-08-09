@@ -3,7 +3,7 @@
     <a href=""><IconMailbox class="text-black" /></a>
     <a href=""><IconGithub class="text-black" /></a>
     <a href=""><IconLinkedin class="text-black" /></a>
-    <a href=""><IconDownload class="text-black" /></a>
+    <!-- <a href=""><IconDownload class="text-black" /></a> -->
   </div>
 </template>
 
@@ -11,14 +11,14 @@
 import IconMailbox from './IconMailbox.vue'
 import IconGithub from './IconGithub.vue'
 import IconLinkedin from './IconLinkedin.vue'
-import IconDownload from './IconDownload.vue'
+// import IconDownload from './IconDownload.vue'
 
 export default {
   components: {
     IconMailbox,
     IconGithub,
-    IconLinkedin,
-    IconDownload
+    IconLinkedin
+    // IconDownload
   }
 }
 </script>
