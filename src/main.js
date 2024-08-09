@@ -1,6 +1,6 @@
 import './assets/main.css'
 import PrimeVue from 'primevue/config'
-import Aura from '@primevue/themes/aura'
+// import Aura from '@primevue/themes/aura'
 import { createApp } from 'vue'
 import App from './App.vue'
 //
@@ -9,9 +9,9 @@ import Button from 'primevue/button'
 
 const app = createApp(App)
 app.use(PrimeVue, {
-  theme: {
-    preset: Aura
-  }
+  // theme: {
+  //   preset: Aura
+  // }
 })
 
 app.component('GalleriaPrime', Galleria)

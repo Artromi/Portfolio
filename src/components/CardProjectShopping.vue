@@ -3,7 +3,7 @@
     <GalleriaPrime
       :value="images"
       :circular="true"
-      :showItemNavigators="true"
+      :showItemNavigators="false"
       :showThumbnails="false"
       containerStyle="border: none"
     >

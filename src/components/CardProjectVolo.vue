@@ -5,7 +5,7 @@
       :circular="true"
       :showItemNavigators="true"
       :showThumbnails="false"
-      containerStyle="border: none"
+      unstyled
     >
       <template #item="slotProps">
         <img
@@ -74,3 +74,9 @@ export default {
   }
 }
 </script>
+
+<!-- <style scoped>
+.p-galleria-next-button {
+  color: red;
+}
+</style> -->
