@@ -12,12 +12,10 @@
       </button>
     </div>
     <p class="text-black text-xl leading-6 py-4 text-justify">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti atque alias labore ea
-      impedit, voluptatum non cum quibusdam consectetur temporibus, consequuntur libero rem iste
-      recusandae officiis? Impedit aliquam iure sint. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Aliquid, consectetur? Quaerat, architecto. Incidunt a omnis quis aperiam,
-      cumque aliquam harum hic veritatis ab? Quasi repellat, officia voluptatum ipsum veritatis
-      cumque!
+      VoloDB is an open source project that is intended to massively simplify the administration of
+      the volunteer service formats "FSJ" (Freiwilliges Soziales Jahr) and "BFD"
+      (Bundesfreiwilligendienst) recognized in Germany. As a team of 3 we started working on it in
+      spring 2024.
     </p>
   </div>
 </template>

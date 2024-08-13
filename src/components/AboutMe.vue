@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="about">
     <div>
       <h1 class="text-8xl text-black" style="text-shadow: 2px 2px 8px #99ff99">Ari</h1>
       <h2 class="text-5xl text-black" style="text-shadow: 2px 2px 8px #99ff99">
