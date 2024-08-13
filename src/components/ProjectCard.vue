@@ -1,9 +1,9 @@
 <template>
   <div id="projects" class="bg-blue-400 bg-opacity-20 my-12 shadow-2xl py-14 px-16">
     <div class="relative">
-      <img class="volo-slides mx-auto" src="@/assets/volo-1.png" />
-      <img class="volo-slides mx-auto hidden" src="@/assets/volo-2.png" />
-      <img class="volo-slides mx-auto hidden" src="@/assets/volo-3.png" />
+      <img class="volo-slides mx-auto" src="@/assets/volo1.png" />
+      <img class="volo-slides mx-auto hidden" src="@/assets/volo2.png" />
+      <img class="volo-slides mx-auto hidden" src="@/assets/volo4.png" />
       <button class="absolute top-1/2 left-0 bg-green-100 p-2" @click="plusSlides(-1)">
         &#10094;
       </button>
