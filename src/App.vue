@@ -1,9 +1,13 @@
 <template>
   <div class="bg-purple-100">
     <NavigationBar />
-    <main class="max-w-4xl mx-auto mt-24">
-      <AboutMe />
-      <ProjectCard />
+    <main class="max-w-4xl mx-auto mt-12">
+      <div id="about" class="pt-36 mt-[-144px]">
+        <AboutMe />
+      </div>
+      <div id="projects" class="pt-28 mt-[-112px]">
+        <ProjectCard />
+      </div>
     </main>
     <ContactsAndFooter />
   </div>
