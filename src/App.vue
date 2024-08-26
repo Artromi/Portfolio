@@ -6,7 +6,7 @@
         <AboutMe />
       </div>
       <div id="projects" class="pt-32 mt-[-128px]">
-        <ProjectCard />
+        <ProjectCards />
       </div>
     </main>
     <ContactsAndFooter />
@@ -16,11 +16,11 @@
 <script>
 import NavigationBar from '@/components/NavigationBar.vue'
 import AboutMe from '@/components/AboutMe.vue'
-import ProjectCard from './components/ProjectCard.vue'
+import ProjectCards from './components/ProjectCards.vue'
 import ContactsAndFooter from '@/components/ContactsAndFooter.vue'
 
 export default {
-  components: { NavigationBar, AboutMe, ContactsAndFooter, ProjectCard }
+  components: { NavigationBar, AboutMe, ContactsAndFooter, ProjectCards }
   // methods: {
   //   handleScroll() {
   //     console.log(window.scrollY)
