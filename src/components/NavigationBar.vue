@@ -26,10 +26,10 @@
         >
       </nav>
     </div>
-    <aside class="flex gap-2 text-white text-lg mx-4 my-2 absolute top-0 right-2">
+    <!-- <aside class="flex gap-2 text-white text-lg mx-4 my-2 absolute top-0 right-2">
       <button class="bg-green-100 p-2 text-black">english</button>
       <button class="text-black">deutsch</button>
-    </aside>
+    </aside> -->
   </div>
 </template>
 <!-- TODO -->
