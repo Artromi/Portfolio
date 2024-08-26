@@ -1,25 +1,29 @@
 <template>
-  <section class="h-screen">
+  <section class="">
     <div>
       <h1 class="text-8xl text-shadow">Ari</h1>
       <h2 class="text-5xl text-shadow">Junior Frontend Developer</h2>
     </div>
 
-    <div class="flex pl-8 mt-8 items-center">
-      <p class="text-2xl leading-10">
+    <div class="flex flex-wrap gap-8 pl-8 mt-16 items-center">
+      <img
+        class="max-w-64"
+        style="box-shadow: 8px 8px #99ff99"
+        src="@/assets/profilbild.jpg"
+        alt="picture of ari"
+      />
+
+      <p class="flex-1 min-w-80 text-2xl leading-10 text-balance">
         I have a background in philosophy and a passion for coding. Since 2021, I’ve built a strong
         technical foundation through self-directed learning and recently completed a frontend
-        development program with Coding Bootcamps Europe. I’m excited about solving problems,
-        embracing new challenges, and contributing to innovative projects.
+        development program with Coding Bootcamps Europe. I’m excited about embracing new
+        challenges, solving problems and contributing to innovative projects.
       </p>
-      <div class="w-auto" style="box-shadow: 8px 8px #99ff99">
-        <img class="" src="@/assets/profilbild.jpg" alt="picture of ari" />
-      </div>
     </div>
 
-    <div class="mt-10">
-      <h4 class="text-5xl text-shadow">skills & tools</h4>
-      <div class="flex gap-16 pl-8">
+    <div class="mt-16">
+      <h4 class="text-4xl text-shadow">Skills & Tools</h4>
+      <div class="flex flex-wrap gap-12 pl-8 mt-8">
         <div class="">
           <h3 class="text-2xl p-1">I have extended experience with:</h3>
           <p class="bg-green-100 px-2 mx-1 inline text-2xl">JavaScript</p>
