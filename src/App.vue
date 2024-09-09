@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-purple-100">
+  <div class="bg-purple-100 w-full">
     <NavigationBar />
-    <main class="max-w-6xl mx-auto mt-28 px-10">
+    <main class="mt-28">
       <div id="about" class="pt-36 mt-[-144px]">
         <AboutMe />
       </div>
