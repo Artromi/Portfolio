@@ -23,7 +23,7 @@
 
     <div class="mt-16">
       <h4 class="text-4xl text-shadow">Skills & Tools</h4>
-      <div class="flex flex-wrap gap-12 pl-8 mt-8">
+      <div class="flex flex-wrap gap-12 mt-8">
         <div class="">
           <h3 class="text-2xl p-1">I have extended experience with:</h3>
           <p class="bg-green-100 px-2 mx-1 inline text-2xl">JavaScript</p>
