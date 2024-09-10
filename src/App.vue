@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-purple-100 w-full">
+  <div class="bg-offWhite-100 w-full overflow-hidden">
     <NavigationBar />
-    <main class="mt-28">
+    <main class="mt-28 mx-auto max-w-4xl p-2 sm:py-0">
       <div id="about" class="pt-36 mt-[-144px]">
         <AboutMe />
       </div>
@@ -21,16 +21,5 @@ import ContactsAndFooter from '@/components/ContactsAndFooter.vue'
 
 export default {
   components: { NavigationBar, AboutMe, ContactsAndFooter, ProjectCards }
-  // methods: {
-  //   handleScroll() {
-  //     console.log(window.scrollY)
-  //   }
-  // },
-  // created() {
-  //   window.addEventListener('scroll', this.handleScroll())
-  // },
-  // unmounted() {
-  //   window.removeEventListener('scroll', this.handleScroll)
-  // }
 }
 </script>

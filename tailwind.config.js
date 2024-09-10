@@ -4,23 +4,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        blue: {
-          100: '#6271FC',
-          200: '#3C15AB',
-          300: '#30048F',
-          400: '#C0C6FE'
+        offWhite: {
+          100: '#F8F8F8'
         },
-        yellow: {
-          100: '#FCED62'
+        newWhite: {
+          100: '#FAF9F8'
         },
-        pink: {
-          100: '#FF99FF'
-        },
-        green: {
+        mintGreen: {
           100: '#99FF99'
-        },
-        purple: {
-          100: '#DEC3E9'
         }
       }
     }

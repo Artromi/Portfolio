@@ -1,26 +1,26 @@
 <template>
-  <div class="sticky top-0 w-full z-50">
-    <div class="flex items-center h-24 relative bg-purple-100">
-      <div class="triangle"></div>
-      <nav class="flex gap-24 text-3xl text-black mr-auto">
+  <div class="sticky top-0 w-full">
+    <div class="flex items-center h-24 relative bg-offWhite-100">
+      <div class="triangle hidden md:block"></div>
+      <nav class="flex sm:gap-24 text-3xl text-black">
         <a
           class="p-2"
           href="#about"
-          :class="{ 'bg-green-100 ': activeSection === 'about' }"
+          :class="{ 'bg-mintGreen-100 ': activeSection === 'about' }"
           @click="activeSection = 'about'"
           >About me</a
         >
         <a
           class="p-2"
           href="#projects"
-          :class="{ 'bg-green-100 ': activeSection === 'projects' }"
+          :class="{ 'bg-mintGreen-100 ': activeSection === 'projects' }"
           @click="activeSection = 'projects'"
           >Projects</a
         >
         <a
           class="p-2"
           href="#contact"
-          :class="{ 'bg-green-100 ': activeSection === 'contact' }"
+          :class="{ 'bg-mintGreen-100 ': activeSection === 'contact' }"
           @click="activeSection = 'contact'"
           >Contact</a
         >

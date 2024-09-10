@@ -11,6 +11,10 @@
   }
 }
 
+::selection {
+  background-color: black;
+  color: #99ff99;
+}
 @layer utilities {
   .triangle {
     width: 300px;

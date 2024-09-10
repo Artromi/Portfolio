@@ -2,37 +2,53 @@
   <section class="mt-16">
     <h3 class="text-4xl text-shadow">Projects</h3>
     <!-- VOLO CARD -->
-    <div class="bg-blue-400 bg-opacity-20 my-10 shadow-2xl py-6 px-16 border-2 border-green-100">
+    <div class="bg-newWhite-100 my-10 shadow-2xl py-6 px-16 border-4 border-mintGreen-100">
       <p class="text-black text-xl leading-8 text-justify mb-8">
         VoloDB is an open source project that is intended to massively simplify the administration
         of the volunteer service formats "FSJ" (Freiwilliges Soziales Jahr) and "BFD"
-        (Bundesfreiwilligendienst) recognized in Germany. As a team of 3 we started working on it in
-        spring 2024.
+        (Bundesfreiwilligendienst) recognized in Germany. As part of a small team i am working on it
+        since spring 2024.
+        <a
+          class="underline underline-offset-4 hover:bg-mintGreen-100"
+          href="https://github.com/volo-db"
+          target="_blank"
+          >Check out our GitHub organization!</a
+        >
       </p>
       <div class="flex items-center justify-center gap-1">
-        <button class="bg-green-100 p-4 text-xl" @click="changeSlides(-1, 'volo')">&#10094;</button>
+        <button class="bg-mintGreen-100 p-4 text-xl" @click="changeSlides(-1, 'volo')">
+          &#10094;
+        </button>
         <img class="volo-slides mx-auto" src="@/assets/volo1.png" />
         <img class="volo-slides mx-auto hidden" src="@/assets/volo2.png" />
         <img class="volo-slides mx-auto hidden" src="@/assets/volo6.png" />
         <img class="volo-slides mx-auto hidden" src="@/assets/volo4.png" />
         <img class="volo-slides mx-auto hidden" src="@/assets/volo5.png" />
-        <button class="bg-green-100 p-4 text-xl" @click="changeSlides(+1, 'volo')">&#10095;</button>
+        <button class="bg-mintGreen-100 p-4 text-xl" @click="changeSlides(+1, 'volo')">
+          &#10095;
+        </button>
       </div>
     </div>
     <!-- BOOKMONKEY -->
-    <div class="bg-blue-400 bg-opacity-20 my-10 shadow-2xl py-6 px-16 border-2 border-green-100">
+    <div
+      class="bg-newWhite-100 bg-opacity-20 my-10 shadow-2xl py-6 px-16 border-4 border-mintGreen-100"
+    >
       <p class="text-black text-xl leading-8 text-justify mb-8">
         Using the Bookmonkey API, this Website list books, marks them as favorites and show details
         of single books.
       </p>
       <div class="flex items-center justify-center gap-1">
-        <button class="bg-green-100 p-4 text-xl" @click="changeSlides(-1, 'book')">&#10094;</button>
+        <button class="bg-mintGreen-100 p-4 text-xl" @click="changeSlides(-1, 'book')">
+          &#10094;
+        </button>
 
         <img class="book-slides mx-auto" src="@/assets/bookmonkey.png" />
         <img class="book-slides mx-auto hidden" src="@/assets/bookmonkey2.png" />
         <img class="book-slides mx-auto hidden" src="@/assets/bookmonkey3.png" />
 
-        <button class="bg-green-100 p-4 text-xl" @click="changeSlides(+1, 'book')">&#10095;</button>
+        <button class="bg-mintGreen-100 p-4 text-xl" @click="changeSlides(+1, 'book')">
+          &#10095;
+        </button>
       </div>
     </div>
   </section>
