@@ -1,6 +1,6 @@
 <template>
   <div class="bg-offWhite-100 w-full overflow-hidden">
-    <NavigationBar />
+    <NavigationBar class="w-full fixed top-0" />
     <main class="mt-28 mx-auto max-w-4xl p-2 sm:py-0">
       <div id="about" class="pt-36 mt-[-144px]">
         <AboutMe />
@@ -18,8 +18,13 @@ import NavigationBar from '@/components/NavigationBar.vue'
 import AboutMe from '@/components/AboutMe.vue'
 import ProjectCards from './components/ProjectCards.vue'
 import ContactsAndFooter from '@/components/ContactsAndFooter.vue'
+// import { onMounted } from 'vue'
 
 export default {
-  components: { NavigationBar, AboutMe, ContactsAndFooter, ProjectCards }
+  components: { NavigationBar, AboutMe, ContactsAndFooter, ProjectCards },
+  created() {
+    const url = window.location.pathname.concat('#about')
+    window.location.href = url
+  }
 }
 </script>

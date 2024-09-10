@@ -34,8 +34,13 @@
       class="bg-newWhite-100 bg-opacity-20 my-10 shadow-2xl py-6 px-16 border-4 border-mintGreen-100"
     >
       <p class="text-black text-xl leading-8 text-justify mb-8">
-        Using the Bookmonkey API, this Website list books, marks them as favorites and show details
-        of single books.
+        Using the
+        <a
+          class="underline underline-offset-4 hover:bg-mintGreen-100"
+          href="https://www.npmjs.com/package/bookmonkey-api "
+          target="_blank"
+          >Bookmonkey API</a
+        >, this Website list books, marks them as favorites and show details of single books.
       </p>
       <div class="flex items-center justify-center gap-1">
         <button class="bg-mintGreen-100 p-4 text-xl" @click="changeSlides(-1, 'book')">
@@ -89,8 +94,5 @@ export default {
 
     return { changeSlides, showSlides }
   }
-  // mounted() {
-  //   this.plusSlides()
-  // }
 }
 </script>
