@@ -4,9 +4,10 @@
     <h2 class="text-5xl text-shadow">Junior Frontend Developer</h2>
   </div>
 
-  <div class="flex flex-wrap gap-8 mt-16 items-center overflow-hidden">
+  <div class="flex flex-wrap gap-8 mt-16 items-center overflow-hidden p-6">
     <img
-      class="max-w-64 w-full sm:w-auto border-4 border-mintGreen-100"
+      class="max-w-64 w-full sm:w-auto"
+      style="box-shadow: -12px -8px #99ff99"
       src="@/assets/profilbild2.jpg"
       alt="picture of ari"
     />
@@ -35,6 +36,7 @@
         <h3 class="text-2xl p-1">I have basic experience with:</h3>
         <div>
           <p class="bg-mintGreen-100 px-2 mx-1 my-1 inline-block text-2xl">TypeScript</p>
+          <p class="bg-mintGreen-100 px-2 mx-1 my-1 inline-block text-2xl">React.js</p>
           <p class="bg-mintGreen-100 px-2 mx-1 my-1 inline-block text-2xl">Node.js</p>
           <p class="bg-mintGreen-100 px-2 mx-1 my-1 inline-block text-2xl">Postman</p>
         </div>
