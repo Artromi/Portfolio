@@ -10,6 +10,9 @@ export default {
         newWhite: {
           100: '#FAF9F8'
         },
+        brightGrey: {
+          100: '#EEEEEE'
+        },
         mintGreen: {
           100: '#99FF99'
         }

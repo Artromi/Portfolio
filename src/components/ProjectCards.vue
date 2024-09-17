@@ -2,7 +2,7 @@
   <section class="mt-16">
     <h3 class="text-4xl text-shadow">Projects</h3>
     <!-- VOLO CARD -->
-    <div class="bg-newWhite-100 my-10 shadow-2xl py-6 px-16 border-4 border-mintGreen-100">
+    <div class="bg-brightGrey-100 my-10 shadow-2xl py-6 px-16 border-4 border-mintGreen-100">
       <p class="text-black text-xl leading-8 text-justify mb-8">
         VoloDB is an open source project that is intended to massively simplify the administration
         of the volunteer service formats "FSJ" (Freiwilliges Soziales Jahr) and "BFD"
@@ -30,9 +30,7 @@
       </div>
     </div>
     <!-- BOOKMONKEY -->
-    <div
-      class="bg-newWhite-100 bg-opacity-20 my-10 shadow-2xl py-6 px-16 border-4 border-mintGreen-100"
-    >
+    <div class="bg-brightGrey-100 my-10 shadow-2xl py-6 px-16 border-4 border-mintGreen-100">
       <p class="text-black text-xl leading-8 text-justify mb-8">
         Using the
         <a
@@ -47,9 +45,9 @@
           &#10094;
         </button>
 
-        <img class="book-slides mx-auto" src="@/assets/bookmonkey.png" />
-        <img class="book-slides mx-auto hidden" src="@/assets/bookmonkey2.png" />
-        <img class="book-slides mx-auto hidden" src="@/assets/bookmonkey3.png" />
+        <img class="book-slides mx-auto" src="@/assets/bookmonkey-1.png" />
+        <img class="book-slides mx-auto hidden" src="@/assets/bookmonkey-2.png" />
+        <img class="book-slides mx-auto hidden" src="@/assets/bookmonkey-3.png" />
 
         <button class="bg-mintGreen-100 p-4 text-xl" @click="changeSlides(+1, 'book')">
           &#10095;
@@ -57,9 +55,7 @@
       </div>
     </div>
     <!-- SHOPPING -->
-    <div
-      class="bg-newWhite-100 bg-opacity-20 my-10 shadow-2xl py-6 px-16 border-4 border-mintGreen-100"
-    >
+    <div class="bg-brightGrey-100 my-10 shadow-2xl py-6 px-16 border-4 border-mintGreen-100">
       <p class="text-black text-xl leading-8 text-justify mb-8">
         Using just HTML and CSS i created a
         <a
