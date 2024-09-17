@@ -21,7 +21,6 @@ export default {
     IconMailbox,
     IconGithub,
     IconLinkedin
-    // IconDownload
   }
 }
 </script>

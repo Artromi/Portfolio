@@ -22,9 +22,25 @@ import ContactsAndFooter from '@/components/ContactsAndFooter.vue'
 
 export default {
   components: { NavigationBar, AboutMe, ContactsAndFooter, ProjectCards },
+  data() {
+    return {
+      coordinates: null,
+      visibleSection: null
+    }
+  },
+  methods: {
+    getCoordinates() {
+      const section = document.getElementById('projects')
+      this.coordinates = section.getBoundingClientRect()
+      console.log(this.coordinates.top)
+    }
+  },
+
   created() {
-    const url = window.location.pathname.concat('#about')
-    window.location.href = url
+    window.location.hash = '#about'
+  },
+  mounted() {
+    this.getCoordinates()
   }
 }
 </script>

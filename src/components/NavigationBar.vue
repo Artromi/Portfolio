@@ -30,9 +30,7 @@
       <button class="text-black">deutsch</button>
     </aside> -->
 </template>
-<!-- TODO -->
-<!-- scrolling and reload should update color of the navbar options (and url) -->
-<!-- TODO -->
+
 <script>
 export default {
   data() {
