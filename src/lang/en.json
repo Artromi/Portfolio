@@ -1,0 +1,25 @@
+{
+  "message": {
+    "hello": "hello world!"
+  },
+  "about": {
+    "bio": "I have a background in philosophy and a passion for coding. Since 2021, I’ve built a strong technical foundation through self-directed learning and recently completed a frontend development program with Coding Bootcamps Europe. I’m excited about embracing new challenges, solving problems and contributing to innovative projects.",
+    "skills": {
+      "extended": "I have extended experience with",
+      "basic": "I have basic experience with"
+    }
+  },
+  "titles": {
+    "about": "About me",
+    "contact": "Contact",
+    "job": "Junior Frontend Developer",
+    "skills": "skills & tools",
+    "projects": "Projects"
+  },
+  "projects": {
+    "volo": "VoloDB is an open source project that is intended to massively simplify the administration of the volunteer service formats 'FSJ' (Freiwilliges Soziales Jahr) and 'BFD' (Bundesfreiwilligendienst) recognized in Germany. As part of a small team i am working on it since spring 2024. Check out our GitHub organization!",
+    "books": "Using the 'Bookmonkey API', this Website list books, marks them as favorites and show details of single books.",
+    "shopping": "Using just HTML and CSS i created a Shopping layout.",
+    "link": "Check out our GitHub organisation!"
+  }
+}

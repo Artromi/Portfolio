@@ -18,7 +18,6 @@ import NavigationBar from '@/components/NavigationBar.vue'
 import AboutMe from '@/components/AboutMe.vue'
 import ProjectCards from './components/ProjectCards.vue'
 import ContactsAndFooter from '@/components/ContactsAndFooter.vue'
-// import { onMounted } from 'vue'
 
 export default {
   components: { NavigationBar, AboutMe, ContactsAndFooter, ProjectCards },
@@ -32,7 +31,6 @@ export default {
     getCoordinates() {
       const section = document.getElementById('projects')
       this.coordinates = section.getBoundingClientRect()
-      console.log(this.coordinates.top)
     }
   },
 

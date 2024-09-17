@@ -1,18 +1,15 @@
 <template>
   <section class="mt-16">
-    <h3 class="text-4xl text-shadow">Projects</h3>
+    <h3 class="text-4xl text-shadow">{{ $t('titles.projects') }}</h3>
     <!-- VOLO CARD -->
     <div class="bg-brightGrey-100 my-10 shadow-2xl py-6 px-16 border-4 border-mintGreen-100">
       <p class="text-black text-xl leading-8 text-justify mb-8">
-        VoloDB is an open source project that is intended to massively simplify the administration
-        of the volunteer service formats "FSJ" (Freiwilliges Soziales Jahr) and "BFD"
-        (Bundesfreiwilligendienst) recognized in Germany. As part of a small team i am working on it
-        since spring 2024.
+        {{ $t('projects.volo') }}
         <a
           class="underline underline-offset-4 hover:bg-mintGreen-100"
           href="https://github.com/volo-db"
           target="_blank"
-          >Check out our GitHub organization!</a
+          >{{ $t('projects.link') }}</a
         >
       </p>
       <div class="flex items-center justify-center gap-1">
@@ -32,13 +29,7 @@
     <!-- BOOKMONKEY -->
     <div class="bg-brightGrey-100 my-10 shadow-2xl py-6 px-16 border-4 border-mintGreen-100">
       <p class="text-black text-xl leading-8 text-justify mb-8">
-        Using the
-        <a
-          class="underline underline-offset-4 hover:bg-mintGreen-100"
-          href="https://www.npmjs.com/package/bookmonkey-api "
-          target="_blank"
-          >Bookmonkey API</a
-        >, this Website list books, marks them as favorites and show details of single books.
+        {{ $t('projects.books') }}
       </p>
       <div class="flex items-center justify-center gap-1">
         <button class="bg-mintGreen-100 p-4 text-xl" @click="changeSlides(-1, 'book')">
@@ -57,12 +48,12 @@
     <!-- SHOPPING -->
     <div class="bg-brightGrey-100 my-10 shadow-2xl py-6 px-16 border-4 border-mintGreen-100">
       <p class="text-black text-xl leading-8 text-justify mb-8">
-        Using just HTML and CSS i created a
+        {{ $t('projects.shopping') }}
         <a
           class="underline underline-offset-4 hover:bg-mintGreen-100"
           href="https://github.com/Artromi/shopping-layout "
           target="_blank"
-          >Shopping layout</a
+          >GitHub-Repo</a
         >.
       </p>
       <div class="flex items-center justify-center gap-1">

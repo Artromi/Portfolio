@@ -14,14 +14,14 @@
         href="#projects"
         :class="{ 'bg-mintGreen-100 ': activeSection === 'projects' }"
         @click="activeSection = 'projects'"
-        >Projects</a
+        >{{ $t('titles.projects') }}</a
       >
       <a
         class="p-2"
         href="#contact"
         :class="{ 'bg-mintGreen-100 ': activeSection === 'contact' }"
         @click="activeSection = 'contact'"
-        >Contact</a
+        >{{ $t('titles.contact') }}</a
       >
     </nav>
   </div>
