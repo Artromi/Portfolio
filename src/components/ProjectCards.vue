@@ -56,6 +56,23 @@
         </button>
       </div>
     </div>
+    <!-- SHOPPING -->
+    <div
+      class="bg-newWhite-100 bg-opacity-20 my-10 shadow-2xl py-6 px-16 border-4 border-mintGreen-100"
+    >
+      <p class="text-black text-xl leading-8 text-justify mb-8">
+        Using just HTML and CSS i created a
+        <a
+          class="underline underline-offset-4 hover:bg-mintGreen-100"
+          href="https://github.com/Artromi/shopping-layout "
+          target="_blank"
+          >Shopping layout</a
+        >.
+      </p>
+      <div class="flex items-center justify-center gap-1">
+        <img class="mx-auto" src="@/assets/shopping-layout.png" />
+      </div>
+    </div>
   </section>
 </template>
 
@@ -78,8 +95,6 @@ export default {
 
     function showSlides(n, slides) {
       let i
-      // let slides = document.getElementsByClassName('volo-slides')
-
       if (n > slides.length) {
         slideIndex = 1
       }
