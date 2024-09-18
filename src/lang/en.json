@@ -17,7 +17,7 @@
     "projects": "Projects"
   },
   "projects": {
-    "volo": "VoloDB is an open source project that is intended to massively simplify the administration of the volunteer service formats 'FSJ' (Freiwilliges Soziales Jahr) and 'BFD' (Bundesfreiwilligendienst) recognized in Germany. As part of a small team i am working on it since spring 2024. Check out our GitHub organization!",
+    "volo": "VoloDB is an open source project that is intended to massively simplify the administration of the volunteer service formats 'FSJ' (Freiwilliges Soziales Jahr) and 'BFD' (Bundesfreiwilligendienst) recognized in Germany. As part of a small team i am working on it since spring 2024.",
     "books": "Using the 'Bookmonkey API', this Website list books, marks them as favorites and shows details of single books.",
     "shopping": "Using just HTML and CSS i created a Shopping layout.",
     "link": "Check out our GitHub organisation!"
