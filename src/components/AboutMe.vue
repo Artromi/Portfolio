@@ -12,7 +12,7 @@
       alt="picture of ari"
     />
 
-    <p class="flex-1 min-w-80 text-2xl leading-10 text-balance">
+    <p class="flex-1 min-w-80 text-2xl leading-10 text-balance text-justify">
       {{ $t('about.bio') }}
     </p>
   </div>
@@ -43,5 +43,15 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      animated: false
+    }
+  },
+  methods: {
+    animate() {
+this.animated = true
+  }
+}}
 </script>
