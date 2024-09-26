@@ -27,18 +27,9 @@ export default {
       visibleSection: null
     }
   },
-  methods: {
-    getCoordinates() {
-      const section = document.getElementById('projects')
-      this.coordinates = section.getBoundingClientRect()
-    }
-  },
-
-  created() {
+  mounted() {
     window.location.hash = '#about'
   },
-  mounted() {
-    this.getCoordinates()
-  }
+ 
 }
 </script>
