@@ -29,23 +29,12 @@ export default {
   components: { NavigationBar, AboutMe, ContactsAndFooter, ProjectCard },
   data() {
     return {
-      coordinates: null,
-      visibleSection: null,
       slides: [volo1, volo2, volo6, volo4, volo5]
-    }
-  },
-  methods: {
-    getCoordinates() {
-      const section = document.getElementById('projects')
-      this.coordinates = section.getBoundingClientRect()
     }
   },
 
   created() {
     window.location.hash = '#about'
   }
-  // mounted() {
-  //   this.getCoordinates()
-  // }
 }
 </script>
