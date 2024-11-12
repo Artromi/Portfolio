@@ -9,6 +9,9 @@
     font-family: 'kanit', Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
   }
+  body {
+    background-color: #f8f8f8;
+  }
 }
 
 ::selection {
@@ -26,7 +29,7 @@
   .circle {
     clip-path: circle(50% at 50% 50%);
   }
-/* .line {
+  /* .line {
   height:5px;
   background-color: #99ff99;
   animation: line 2s linear forwards;
