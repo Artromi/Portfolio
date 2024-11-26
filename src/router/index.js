@@ -6,10 +6,10 @@ import ContactView from '@/views/ContactView.vue'
 const routes = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    {
-      path: '/',
-      redirect: '/about' // This will redirect the root path to /about
-    },
+    // {
+    //   path: '/',
+    //   redirect: '/about' // This will redirect the root path to /about
+    // },
     {
       path: '/about',
       name: 'about',
