@@ -1,9 +1,8 @@
 <template>
   <main class="bg-brightGrey-100 my-10 shadow-xl min-w-[800px] flex items-center justify-between">
     <div>
-      <p class="text-2xl leading-10 text-center py-2">
-        I am happy to connect with you, lets talk web development, video games or our favourite
-        memes!
+      <p class="text-2xl leading-10 text-center px-12 py-6">
+        {{ $t('contact.description') }}
       </p>
       <div class="flex justify-center">
         <a class="hover:bg-mintGreen-100 p-2" href="mailto:arisenger0@gmail.com" title="Mail"

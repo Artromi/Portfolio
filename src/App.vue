@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen relative overflow-auto">
     <NavigationBar />
-    <main class="my-24 mx-auto max-w-[1200px]">
+    <main class="my-24 mx-auto px-12 max-w-[1200px]">
       <RouterView />
     </main>
     <footer class="bg-mintGreen-100 h-12 w-full absolute bottom-0">
