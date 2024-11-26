@@ -2,10 +2,10 @@
   <div>
     <div>
       <h1 class="text-8xl text-shadow">Ari</h1>
-      <h2 class="text-4xl text-shadow">{{ $t('titles.job') }}</h2>
+      <h2 class="text-3xl text-shadow">{{ $t('titles.job') }}</h2>
     </div>
 
-    <div class="flex flex-wrap gap-8 mt-16 items-center overflow-hidden p-6">
+    <div class="flex flex-wrap gap-8 mt-12 items-center overflow-hidden p-6">
       <img
         class="max-w-64 w-full sm:w-auto"
         style="box-shadow: -12px -12px #99ff99"
@@ -13,14 +13,15 @@
         alt="picture of ari"
       />
 
-      <p class="flex-1 min-w-80 text-2xl leading-10 text-balance text-justify">
+      <p class="flex-1 min-w-80 text-2xl leading-10 text-balance text-justify max-w-[600px]">
         {{ $t('about.bio') }}
       </p>
     </div>
 
-    <div class="mt-16">
-      <h4 class="text-4xl text-shadow">Skills & Tools</h4>
-      <div class="flex flex-wrap gap-12 mt-8">
+    <!-- skill and tool section -->
+    <div class="mt-12">
+      <h3 class="text-4xl text-shadow">Skills & Tools</h3>
+      <div class="flex flex-wrap gap-12 mt-4">
         <div>
           <h3 class="flex flex-wrap text-2xl p-1">{{ $t('about.skills.extended') }}:</h3>
           <p class="bg-mintGreen-100 px-2 mx-1 my-1 inline-block text-2xl">JavaScript</p>
