@@ -3,7 +3,7 @@
     "hello": "Hallo Welt!"
   },
   "about": {
-    "bio": "Hi, ich bin Ari. Ich bin ein introvertierter Mensch mit einer Leidenschaft für Science-Fiction, Videospiele, Katzen und Programmierung. Seit 2021 habe ich mir durch autodidaktisches Lernen eine solide technische Grundlage aufgebaut und kürzlich eine Weiterbildung zum Frontend-Entwickler bei Coding Bootcamps Europe abgeschlossen. Als motivierter, lebenslanger Lerner freue mich darauf, mich zu vernetzen und gemeinsam an neuen Projekten zu arbeiten. ",
+    "bio": "Hi, ich bin Ari. Ich bin ein introvertierter Mensch mit einer Leidenschaft für Science-Fiction, Videospiele, Katzen und Programmierung. Seit 2021 habe ich mir durch autodidaktisches Lernen eine solide technische Grundlage aufgebaut und kürzlich eine Weiterbildung zum Frontend-Entwickler bei Coding Bootcamps Europe abgeschlossen. Als motivierter, lebenslanger Lerner freue mich darauf, neue Herausforderungen anzunehmen und meine Fähigkeiten und Perspektiven stetig zu erweitern.",
     "skills": {
       "extended": "Erweiterte Kenntnisse",
       "basic": "Grundlegende Kenntnisse"
@@ -17,9 +17,12 @@
     "projects": "Projekte"
   },
   "projects": {
-    "volo": "VoloDB ist ein Open-Source-Projekt, das die Verwaltung der in Deutschland anerkannten Freiwilligendienste ‚FSJ‘ (Freiwilliges Soziales Jahr) und ‚BFD‘ (Bundesfreiwilligendienst) erheblich vereinfachen soll. Als Teil eines kleinen Teams arbeite ich seit Frühjahr 2024 daran.",
+    "volo": "VoloDB ist ein Open-Source-Projekt, das darauf abzielt, die Verwaltung der in Deutschland anerkannten Freiwilligendienste FSJ (Freiwilliges Soziales Jahr) und BFD (Bundesfreiwilligendienst) erheblich zu vereinfachen. Seit Frühjahr 2024 arbeite ich in einem kleinen Team an diesem Projekt. Im November 2024 haben wir einen zweitägigen Workshop veranstaltet, um die nächsten Schritte für unser Projekt zu besprechen und zu planen. Außerdem haben wir uns mit einer Organisation getroffen, die plant, VoloDB in Zukunft zu nutzen (geplant für Herbst 2025), und deren spezifische Anforderungen besprochen.",
     "books": "Diese Website verwendet die 'Bookmonkey-API', um Bücher aufzulisten, sie als Favoriten zu markieren und Details zu einzelnen Büchern anzuzeigen.",
     "shopping": "Einfaches Shopping-Layout mit HTML und CSS.",
     "link": "Hier gehts zum GitHub Profil!"
+  },
+  "contact": {
+    "description": "Ich freue mich, mit dir in Kontakt zu treten – lass uns über Webentwicklung, Videospiele oder unsere Lieblingsmemes sprechen!"
   }
 }
