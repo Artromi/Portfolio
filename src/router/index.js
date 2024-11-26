@@ -1,15 +1,15 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import ProjectsView from '@/views/ProjectsView.vue'
 import AboutView from '@/views/AboutView.vue'
 import ContactView from '@/views/ContactView.vue'
 
 const routes = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   routes: [
-    // {
-    //   path: '/',
-    //   redirect: '/about' // This will redirect the root path to /about
-    // },
+    {
+      path: '/',
+      redirect: '/about' // This will redirect the root path to /about
+    },
     {
       path: '/about',
       name: 'about',
