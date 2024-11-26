@@ -1,7 +1,7 @@
 <template>
   <!-- VOLO -->
   <div class="px-14 min-w-[800px]">
-    <h3 class="text-4xl text-shadow">Volodb</h3>
+    <h3 class="text-4xl text-shadow">VoloDB</h3>
     <p class="text-black text-xl leading-8 text-justify mb-8">
       {{ $t('projects.volo') }}
       <a
