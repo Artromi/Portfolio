@@ -1,6 +1,6 @@
 <template>
-  <div class="$attr">
-    <div class="flex items-center h-auto sm:h-28 bg-offWhite-100">
+  <div>
+    <div class="flex items-center bg-offWhite-100 h-full">
       <div class="triangle hidden md:block"></div>
       <nav class="flex flex-col sm:flex-row sm:gap-24 text-3xl text-black pt-4">
         <button

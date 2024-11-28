@@ -1,10 +1,10 @@
 <template>
-  <div class="min-h-screen relative overflow-auto">
+  <div class="overflow-hidden h-screen grid grid-rows-[70px,auto,50px]">
     <NavigationBar />
-    <main class="my-16 mx-auto pb-12 px-8 max-w-[1200px]">
+    <main class="mt-12 mx-auto px-8 max-w-[1200px] overflow-auto">
       <RouterView />
     </main>
-    <footer class="bg-mintGreen-100 h-12 w-full absolute bottom-0">
+    <footer class="bg-mintGreen-100 w-full">
       <img class="w-12" src="@/assets/images/progress.png" alt="" />
     </footer>
   </div>

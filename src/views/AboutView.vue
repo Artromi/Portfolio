@@ -5,7 +5,7 @@
       <h2 class="text-3xl text-shadow">{{ $t('titles.job') }}</h2>
     </div>
 
-    <div class="flex flex-wrap gap-8 mt-12 items-center overflow-hidden p-6">
+    <div class="flex flex-wrap gap-8 mt-6 items-center overflow-hidden p-6">
       <img
         class="max-w-64 w-full sm:w-auto"
         style="box-shadow: -12px -12px #99ff99"

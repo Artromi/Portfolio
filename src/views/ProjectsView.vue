@@ -11,18 +11,18 @@
         >{{ $t('projects.link') }}</a
       >
     </p>
-    <div class="relative">
+    <div class="relative mb-12">
       <button
         class="absolute top-1/2 text-xl hover:bg-mintGreen-100 hover:bg-opacity-50 p-4"
         @click="changeSlides(-1, 'volo')"
       >
         &#10094;
       </button>
-      <img class="volo-slides w-full" src="@/assets/images/volo1.png" />
-      <img class="volo-slides w-full hidden" src="@/assets/images/volo2.png" />
-      <img class="volo-slides w-full hidden" src="@/assets/images/volo6.png" />
-      <img class="volo-slides w-full hidden" src="@/assets/images/volo4.png" />
-      <img class="volo-slides w-full hidden" src="@/assets/images/volo5.png" />
+      <img class="volo-slides w-max-full" src="@/assets/images/volo1.png" />
+      <img class="volo-slides w-max-full hidden" src="@/assets/images/volo2.png" />
+      <img class="volo-slides w-max-full hidden" src="@/assets/images/volo6.png" />
+      <img class="volo-slides w-max-full hidden" src="@/assets/images/volo4.png" />
+      <img class="volo-slides w-max-full hidden" src="@/assets/images/volo5.png" />
       <button
         class="absolute top-1/2 right-0 text-xl hover:bg-mintGreen-100 hover:bg-opacity-50 p-4"
         @click="changeSlides(+1, 'volo')"
