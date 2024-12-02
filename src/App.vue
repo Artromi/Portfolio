@@ -1,7 +1,7 @@
 <template>
   <div class="overflow-hidden h-screen grid grid-rows-[70px,auto,50px]">
     <NavigationBar />
-    <main class="mt-12 mx-auto px-8 max-w-[1200px] overflow-auto">
+    <main class="mt-12 mx-auto px-8 max-w-[1300px] overflow-auto">
       <RouterView />
     </main>
     <footer class="bg-mintGreen-100 w-full">
